@@ -1,3 +1,3 @@
 ## webpack5+typescript+react18+eslint+prettier+stylelintrc
 
-#### React+ts 基础开发环境搭建，该基础版未安装 React-router 、redux 、ant 等工具，后期会逐步更新
+#### 该版本将配置 mobx 进行状态管理；react-router 路由管理，axios 异步请求基础封装
