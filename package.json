@@ -57,6 +57,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.7",
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
+    "@types/react-router-dom": "^5.3.3",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
     "@typescript-eslint/parser": "^5.30.5",
     "autoprefixer": "^10.4.7",
@@ -107,7 +108,10 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "mobx": "^6.6.1",
+    "mobx-react-lite": "^3.4.0",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
   }
 }

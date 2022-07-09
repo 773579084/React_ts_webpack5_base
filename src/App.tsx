@@ -1,26 +1,7 @@
-import React, { lazy } from 'react'
-import './App.scss'
-
-// prefetch
-const PreFetchDemo = lazy(
-  () =>
-    import(
-      /* webpackChunkName: "PreFetchDemo" */
-      /* webpackPrefetch: true */
-      '@/components/PreFetchDemo'
-    ),
-)
-// preload
-const PreloadDemo = lazy(
-  () =>
-    import(
-      /* webpackChunkName: "PreloadDemo" */
-      /* webpackPreload: true */
-      '@/components/PreloadDemo'
-    ),
-)
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
-  return <h2>展示</h2>
+  return <BrowserRouter></BrowserRouter>
 }
 export default App
