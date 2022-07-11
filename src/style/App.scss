@@ -1,0 +1,14 @@
+.sidebar {
+  display: block;
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+.current-highlight {
+  color: white;
+  background-color: pink;
+}
