@@ -1,12 +1,11 @@
 import React from 'react'
 import { NavLink, useRoutes } from 'react-router-dom'
 import '@/style/App.scss'
-/* type */
-import '@/type/index.d.ts'
 /* 引入路由表 */
 import routes from '@/routes'
 /* 引入工具函数 */
 import { currentHighLightFn } from '@/utils'
+import './style/App.css'
 
 export default function App() {
   /* 路由表 */

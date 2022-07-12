@@ -19,7 +19,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/, //匹配所有的 less 文件
+        test: /\.css$/, //匹配所有的 css 文件
         enforce: 'pre',
         include: [path.resolve(__dirname, '../src')],
         use: [
@@ -29,7 +29,7 @@ module.exports = {
         ]
       },
       {
-        test: /\.scss$/, //匹配所有的 less 文件
+        test: /\.scss$/, //匹配所有的 scss 文件
         enforce: 'pre',
         include: [path.resolve(__dirname, '../src')],
         use: [

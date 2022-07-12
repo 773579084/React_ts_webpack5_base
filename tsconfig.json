@@ -30,7 +30,8 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.d.ts",
-    "src/**/*.tsx"
+    "src/**/*.tsx",
+    "src/utils/resize.ts"
   ],
   "exclude": [
     "node_modules",
