@@ -1,8 +1,9 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { useParams, useLocation } from 'react-router-dom'
 
 export default function Detail() {
   const { id, context } = useParams()
+  const data = useLocation()
 
   return (
     <div>

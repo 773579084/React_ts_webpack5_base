@@ -16,7 +16,11 @@ const Index: React.FC<IProps> = (props) => {
 
   // 每当props改变的时候就会实时重新渲染
   useEffect(() => {
-    const chart = echarts.init(chartRef.current) //echart初始化容器
+    //#region 解决 react 热更新重复的问题
+    let chart = echarts.getInstanceByDom(chartRef.current) as any
+    //echart初始化容器
+    if (!chart) chart = echarts.init(chartRef.current)
+    //#endregion
     let option = {
       //配置项(数据都来自于props)
       title: {

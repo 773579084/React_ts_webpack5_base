@@ -9,7 +9,7 @@ const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin'
 module.exports = merge(baseConfig, {
   mode: 'development', // 开发模式，不会压缩最终代码
   devServer: {
-    port: 9090, // 服务端口号
+    port: 9010, // 服务端口号
     compress: false, // gzip压缩，开发环境不开启，提升速度
     // 解决路由跳转404问题
     historyApiFallback: true,
