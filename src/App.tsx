@@ -7,6 +7,8 @@ import '@/type/index.d.ts'
 import routes from '@/routes'
 /* 引入工具函数 */
 import { currentHighLightFn } from '@/utils'
+/* 路由守卫 */
+import { AuthRouter } from '@/utils/routers'
 
 export default function App() {
   /* 路由表 */
@@ -23,7 +25,7 @@ export default function App() {
       </NavLink>
       -----------------------------
       {/* 注册路由 */}
-      {element}
+      <AuthRouter>{element}</AuthRouter>
     </div>
   )
 }
